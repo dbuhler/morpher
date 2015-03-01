@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/defaultMargin">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/imageButton1"
+            android:background="@drawable/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/defaultMargin"
+            android:onClick="loadImage_Click"
+            android:text="@string/buttonTextBrowse"/>
+
+        <dbuhler.morpher.views.FitImageView
+            android:id="@+id/lineView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/defaultMargin"
+            android:onClick="loadImage_Click"
+            android:scaleType="fitXY"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/imageButton2"
+            android:background="@drawable/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/defaultMargin"
+            android:onClick="loadImage_Click"
+            android:padding="@dimen/paddingImage"
+            android:text="@string/buttonTextBrowse"/>
+
+        <dbuhler.morpher.views.FitImageView
+            android:id="@+id/lineView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/defaultMargin"
+            android:onClick="loadImage_Click"
+            android:scaleType="fitXY"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

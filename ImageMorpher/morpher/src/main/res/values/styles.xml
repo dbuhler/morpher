@@ -1,0 +1,12 @@
+<resources>
+
+    <style
+        name="AppTheme"
+        parent="@android:style/Theme.Holo">
+
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+    </style>
+
+</resources>

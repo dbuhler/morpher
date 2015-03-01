@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:icon="@drawable/ic_action_draw"
+        android:id="@+id/actionEdit"
+        android:showAsAction="always|withText"
+        android:title="@string/actionEdit"
+        tools:ignore="AlwaysShowAction,AppCompatResource"/>
+
+    <item
+        android:icon="@drawable/ic_action_accept"
+        android:id="@+id/actionMorph"
+        android:showAsAction="always|withText"
+        android:title="@string/actionMorph"
+        tools:ignore="AlwaysShowAction,AppCompatResource"/>
+
+    <item
+        android:icon="@drawable/ic_action_menu"
+        android:showAsAction="always"
+        android:title="@string/actionMenu"
+        tools:ignore="AlwaysShowAction,AppCompatResource">
+
+        <menu>
+
+            <item
+                android:icon="@drawable/ic_action_new"
+                android:id="@+id/actionNew"
+                android:title="@string/actionNew"/>
+
+            <item
+                android:icon="@drawable/ic_action_open"
+                android:id="@+id/actionOpen"
+                android:title="@string/actionOpen"/>
+
+            <item
+                android:icon="@drawable/ic_action_save"
+                android:id="@+id/actionSave"
+                android:title="@string/actionSave"/>
+
+            <item
+                android:icon="@drawable/ic_action_close"
+                android:id="@+id/actionClose"
+                android:title="@string/actionClose"/>
+
+        </menu>
+
+    </item>
+
+</menu>

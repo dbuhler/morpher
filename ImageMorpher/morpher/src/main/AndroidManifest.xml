@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dbuhler.morpher">
+
+    <uses-feature
+        android:name="android.hardware.screen.landscape"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/appName"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/activityTitleMain"
+            android:screenOrientation="sensorLandscape">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".activities.NewActivity"
+            android:label="@string/activityTitleNew"
+            android:screenOrientation="sensorLandscape"/>
+
+        <activity
+            android:name=".activities.DrawActivity"
+            android:label="@string/activityTitleDraw"
+            android:screenOrientation="sensorLandscape"/>
+
+        <activity
+            android:name=".activities.PlayActivity"
+            android:label="@string/activityTitlePlay"
+            android:screenOrientation="sensorLandscape"/>
+
+    </application>
+
+</manifest>

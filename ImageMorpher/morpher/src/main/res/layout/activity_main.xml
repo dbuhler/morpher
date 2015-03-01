@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/defaultMargin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/defaultMargin"
+        android:text="@string/appDescription"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:contentDescription="@string/buttonTextNew"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:layout_margin="@dimen/defaultMargin"
+            android:onClick="buttonNew_Click"
+            android:scaleType="center"
+            android:src="@drawable/ic_action_new"/>
+
+        <TextView
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin"
+            android:onClick="buttonNew_Click"
+            android:text="@string/buttonTextNew"
+            android:textSize="@dimen/textSizeMenu"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:contentDescription="@string/buttonTextOpen"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:layout_margin="@dimen/defaultMargin"
+            android:onClick="buttonOpen_Click"
+            android:scaleType="center"
+            android:src="@drawable/ic_action_open"/>
+
+        <TextView
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin"
+            android:onClick="buttonOpen_Click"
+            android:text="@string/buttonTextOpen"
+            android:textSize="@dimen/textSizeMenu"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:contentDescription="@string/buttonTextExit"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:layout_margin="@dimen/defaultMargin"
+            android:onClick="buttonExit_Click"
+            android:scaleType="center"
+            android:src="@drawable/ic_action_close"/>
+
+        <TextView
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin"
+            android:onClick="buttonExit_Click"
+            android:text="@string/buttonTextExit"
+            android:textSize="@dimen/textSizeMenu"/>
+
+    </LinearLayout>
+
+</LinearLayout>

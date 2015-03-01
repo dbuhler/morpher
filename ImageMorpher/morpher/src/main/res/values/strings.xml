@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">ImageMorpher</string>
+    <string name="appDescription">ImageMorpher by Dan Buhler</string>
+
+    <string name="activityTitleMain">ImageMorpher</string>
+    <string name="activityTitleNew">ImageMorpher - Step 1</string>
+    <string name="activityTitleDraw">ImageMorpher - Step 2</string>
+    <string name="activityTitlePlay">ImageMorpher - Step 3</string>
+
+    <string name="actionAccept">Continue</string>
+    <string name="actionClose">Close Project</string>
+    <string name="actionDelete">Delete Line</string>
+    <string name="actionEdit">Edit Lines</string>
+    <string name="actionMenu">Menu</string>
+    <string name="actionMorph">Morph</string>
+    <string name="actionNew">New Project</string>
+    <string name="actionOpen">Open Project</string>
+    <string name="actionSave">Save Project</string>
+    <string name="actionTool">Tool</string>
+    <string name="actionToolDraw">Draw Line</string>
+    <string name="actionToolEdit">Edit Line</string>
+
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonPlayFw">Play Forwards</string>
+    <string name="buttonPlayBw">Play Backwards</string>
+    <string name="buttonFrameNext">Next Frame</string>
+    <string name="buttonFramePrev">Previous Frame</string>
+    <string name="buttonOK">OK</string>
+    <string name="buttonTextNew">Start a new project</string>
+    <string name="buttonTextOpen">Open an existing project</string>
+    <string name="buttonTextExit">Exit</string>
+    <string name="buttonTextBrowse">Tap to browse for an image</string>
+
+    <string name="dialogAspectTitle">Different Aspect Ratios</string>
+    <string name="dialogAspectMessage">The two images need to be stretched to the same aspect ratio. Which image\'s aspect ratio do you want to apply?</string>
+    <string name="dialogAspectButtonL">Left Image</string>
+    <string name="dialogAspectButtonR">Right Image</string>"
+    <string name="dialogOpenTitle">Open Project</string>
+    <string name="dialogOpenMessage">Please select a project below to open.</string>
+    <string name="dialogOpenMessageEmpty">There are currently no saved projects available.</string>
+    <string name="dialogSaveTitle">Save Project</string>
+    <string name="dialogSaveMessage">Please enter a name for your project.</string>
+    <string name="dialogWaitLoadTitle">Loading Project</string>
+    <string name="dialogWaitLoadMessage">Please wait while the project is being loaded.</string>
+    <string name="dialogWaitMorphTitle">Creating Frames</string>
+    <string name="dialogWaitMorphMessage">Please wait while the frames are being created.</string>
+    <string name="dialogWaitNewTitle">Processing Images</string>
+    <string name="dialogWaitNewMessage">Please wait while the images are being processed.</string>
+    <string name="dialogWaitSaveTitle">Saving Project</string>
+    <string name="dialogWaitSaveMessage">Please wait while the project is being saved.</string>
+
+    <string name="imageDescResult">Morphed Image</string>
+    <string name="labelNumFrames">Number of intermediate frames (max. 100)</string>
+    <string name="labelFrameRate">Playback speed in frames/second (max. 100)</string>
+    <string name="labelParamA">Morphing parameter a (0.001–0.1)</string>
+    <string name="labelParamB">Morphing parameter b (0.5–2.0)</string>
+    <string name="labelParamP">Morphing parameter p (0.0–1.0)</string>
+    <string name="headingParams">Morpher Settings</string>
+    <string name="headingControls">Playback Controls</string>
+
+</resources>

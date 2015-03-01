@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="defaultMargin">10dp</dimen>
+    <dimen name="paddingButton">10dp</dimen>
+    <dimen name="paddingImage">80dp</dimen>
+    <dimen name="cornerRadius">4dp</dimen>
+    <dimen name="textSizeMenu">20sp</dimen>
+    <dimen name="buttonSize">60dp</dimen>
+    <dimen name="editTextWidth">100dp</dimen>
+    <dimen name="textSizeListItem">20sp</dimen>
+    <dimen name="textSizeHeading">20sp</dimen>
+    <dimen name="paddingListItem">10dp</dimen>
+</resources>

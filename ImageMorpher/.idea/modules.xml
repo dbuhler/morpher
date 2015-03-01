@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ImageMorpher.iml" filepath="$PROJECT_DIR$/ImageMorpher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/morpher/morpher.iml" filepath="$PROJECT_DIR$/morpher/morpher.iml" />
+    </modules>
+  </component>
+</project>
+

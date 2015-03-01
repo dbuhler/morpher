@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:icon="@drawable/ic_action_delete"
+        android:id="@+id/actionDelete"
+        android:showAsAction="always"
+        android:title="@string/actionDelete"
+        tools:ignore="AlwaysShowAction,AppCompatResource"/>
+
+    <item
+        android:icon="@drawable/ic_action_draw"
+        android:id="@+id/actionTool"
+        android:showAsAction="always|withText"
+        android:title="@string/actionTool"
+        tools:ignore="AlwaysShowAction,AppCompatResource">
+
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:icon="@drawable/ic_action_draw"
+                    android:id="@+id/actionToolDraw"
+                    android:title="@string/actionToolDraw"/>
+
+                <item
+                    android:icon="@drawable/ic_action_edit"
+                    android:id="@+id/actionToolEdit"
+                    android:title="@string/actionToolEdit"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:icon="@drawable/ic_action_accept"
+        android:id="@+id/actionDone"
+        android:showAsAction="always|withText"
+        android:title="@string/actionAccept"
+        tools:ignore="AlwaysShowAction,AppCompatResource"/>
+
+</menu>
